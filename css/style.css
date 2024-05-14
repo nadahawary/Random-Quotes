@@ -1,0 +1,13 @@
+
+.content .text .quote{
+    font-family:"Playfair Display", serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.content .writer{
+    font-family:"Playfair Display", serif;
+    font-weight: 400;
+    color: #2a8b2e;
+
+
+}
