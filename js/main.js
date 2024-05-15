@@ -58,9 +58,9 @@ qouteBtn.onclick = function (){
     
     var random=Math.floor(Math.random() * quotes.length);
     while(usedQuotes.includes(random)){
-        random=Math.floor(Math.random()*quotes.length)
+        random=Math.floor(Math.random() *quotes.length)
     }
     usedQuotes.push(random);
     quote.innerHTML = quotes[random].quote;
     writer.innerHTML= quotes[random].writer;
-}
+};
